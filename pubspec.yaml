@@ -1,0 +1,67 @@
+name: pet_comforts_mobile
+description: "Mobile Application for pet comforts."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.2.1
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/paw_bkgrd.jpg
+    - lib/assets/images/paw_bkgrd_dark.jpg
+    - lib/assets/images/logo.png
+    - lib/assets/images/banner1.png
+    - lib/assets/images/banner2.png
+    - lib/assets/images/banner3.png
+    - lib/assets/images/fish.jpg
+    - lib/assets/images/toy.png
+    - lib/assets/images/C2.jpg
+    - lib/assets/images/cards.jpg
+    - lib/assets/images/D1.jpg
+    - lib/assets/images/D5.jpg
+    - lib/assets/images/D6.jpg
+    - lib/assets/images/D4.jpg
+    - lib/assets/images/D2.jpg
+    - lib/assets/images/dog_icon.jpg
+    - lib/assets/images/cat_icon.jpg
+    - lib/assets/images/fish_icon.jpg
+    - lib/assets/images/vitamins_icon.jpg
+    - lib/assets/images/grooming_icon.jpg
+    - lib/assets/images/user_icon.jpg
+
+
+
+
+  fonts:
+    - family: CarmenSans
+      fonts:
+        - asset: lib/assets/fonts/CarmenSans-Heavy.ttf
+
+
+    - family: LeagueSpartan
+      fonts:
+        - asset: lib/assets/fonts/LeagueSpartan-Medium.ttf
